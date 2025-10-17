@@ -1,7 +1,7 @@
 # HNG-stage0-profile-card
 This is a simple, responsive and accessible profile card built for the HNG 13 Frontend Stage 0 Task using HTML, CSS and vanilla JavaScript.
 ## Live Demo
-[Veiw in Netlify]()
+[Veiw in Netlify](https://priscilla-stage0.netlify.app/)
 
 ## Features
 * Displays my name, short bio, photo, and live time in milliseconds
