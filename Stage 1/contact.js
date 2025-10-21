@@ -18,7 +18,7 @@ form.addEventListener('submit', (e) => {
         isValid=false;
     }
     if(!subject.value.trim()){
-        document.getElementById('error-subject').textContent='Subject is requried';
+        document.getElementById('error-subject').textContent='Subject is required';
         isValid=false;
     }
     if(message.value.trim().length<10){

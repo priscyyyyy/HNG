@@ -1,5 +1,5 @@
 # HNG
-[Veiw on Netlify()]
+[Veiw on Netlify(https://hng-priscyyyyy.netlify.app/)]
 ## Stage 0
 Contains a basic profile card 
 
