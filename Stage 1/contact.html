@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       <nav>
+           <a href="../Stage 0/index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="contact.html">Contact Us</a>
+        </nav> 
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+        <form id="contact-form">
+            <label for="name">Full Name: </label>
+            <input type="text" id="name" data-testid="test-contact-name" aria-describedby="error-name" placeholder="eg.John Doe">
+            <span id="error-name" data-testid="test-contact-error-name" class="error"></span>
+            <br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" data-testid="test-contact-email" aria-describedby="error-email" placeholder="eg.example@gmail.com">
+            <span id="error-email" data-testid="test-contact-error-email" class="error"></span>
+            <br>
+            <label for="subject">Subject: </label>
+            <input type="text" id="subject" data-testid="test-contact-subject" aria-describedby="error-subject">
+            <span id="error-subject" data-testid="test-contact-error-subject" class="error"></span>
+            <br>
+            <label for="message">Message: </label>
+            <textarea id="message" data-testid="test-contact-message" aria-describedby="error-message"></textarea>
+            <span id="error-message" data-testid="test-contact-error-message" class="error"></span>
+            <br>
+            <button type="submit" data-testid="test-contact-submit">Submit</button>
+            <p id="success" data-testid="test-contact-successs" class="success"></p>
+        </form>
+    </main>
+    <script src="contact.js"></script>
+</body>
+</html>
