@@ -11,5 +11,5 @@ Contains a basic profile card
 ## Stage 1
 Contains two other pages(Contact and About) that are linked to the profile card
 
-##Author
+## Author
 **ATAKPA, Priscilla U.**
